@@ -15,8 +15,7 @@ const Footer: React.FC = () => {
                         <span className="text-tokyo-blue">together.</span>
                     </h2>
                     <p className="text-tokyo-comment text-lg max-w-md">
-                        Currently open for new opportunities and interesting projects. Have an idea? Let's discuss it.
-                    </p>
+                        Currently working in GeekWorkx Technlogies as a Full Stack Developer.                     </p>
                 </div>
                 
                 <div className="flex flex-col justify-center items-start md:items-end space-y-4">
@@ -24,28 +23,28 @@ const Footer: React.FC = () => {
                         <span className="w-12 h-12 rounded-full border border-tokyo-comment/30 flex items-center justify-center group-hover:border-tokyo-blue group-hover:bg-tokyo-blue/10 transition-all">
                             <Mail size={20} />
                         </span>
-                        hello@dev.portfolio
+                       patrickkharmujai123@gmail.com 
                     </a>
                 </div>
             </div>
 
             <div className="border-t border-tokyo-comment/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex gap-6">
-                    <a href="#" className="text-tokyo-comment hover:text-tokyo-fg transition-colors transform hover:-translate-y-1 duration-200">
+                    <a href="https://github.com/kurohikari123" className="text-tokyo-comment hover:text-tokyo-fg transition-colors transform hover:-translate-y-1 duration-200">
                         <Github />
                     </a>
                     <a href="#" className="text-tokyo-comment hover:text-tokyo-fg transition-colors transform hover:-translate-y-1 duration-200">
                         <Linkedin />
                     </a>
-                    <a href="#" className="text-tokyo-comment hover:text-tokyo-fg transition-colors transform hover:-translate-y-1 duration-200">
-                        <Twitter />
-                    </a>
+                    {/* <a href="#" className="text-tokyo-comment hover:text-tokyo-fg transition-colors transform hover:-translate-y-1 duration-200"> */}
+                    {/*     <Twitter /> */}
+                    {/* </a> */}
                 </div>
 
                 <div className="text-tokyo-comment text-sm flex items-center gap-2">
-                    <span>© {new Date().getFullYear()} Made with</span>
+                    <span>© {new Date().getFullYear()} Made by</span>
                     <Heart size={14} className="text-tokyo-red fill-current animate-pulse" />
-                    <span>using React & GSAP</span>
+                    <span>Patrick Kharmujai</span>
                 </div>
             </div>
         </div>
