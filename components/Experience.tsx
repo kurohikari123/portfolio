@@ -6,39 +6,40 @@ import { Experience as ExperienceType } from '../types';
 const experiences: ExperienceType[] = [
     {
         id: 1,
-        role: "Senior Frontend Engineer",
-        company: "Tech Corp",
-        period: "2021 - Present",
+        role: "Full Stack Developer",
+        company: "GeekWorkx Technologies",
+        period: "2025 - Present",
         description: [
-            "Architected main dashboard reducing load time by 40%",
-            "Mentored junior developers and introduced TDD practices",
-            "Implemented micro-frontend architecture using Webpack 5"
+            "Designed and optimized client websites and pages",
+            "Maintined and developed CMS dashboards",
+            "Implemented fast and dynamic frontend development using PHP"
         ],
-        tech: ["React", "TypeScript", "AWS", "GraphQL"]
+        tech: ["PHP", "TypeScript", "JavaScript", "SQL"]
     },
     {
         id: 2,
-        role: "Full Stack Developer",
-        company: "StartupInc",
-        period: "2019 - 2021",
+        role: "Research Intern",
+        company: "NESAC",
+        period: "2024- 2025",
         description: [
-            "Built MVP from scratch using MERN stack",
-            "Handled database design and API security",
-            "Integrated Stripe payments and Twilio messaging"
+            "Created a Deep Learning Model for segmentation/classification",
+            "Handled research and documentation",
+            "Integrated deep learning framweworks with tuning",
+            "Accomdated small scale testing on limited hardware"
         ],
-        tech: ["Node.js", "MongoDB", "Express", "React"]
+        tech: ["Python", "Tensorflow", "Pytorch"]
     },
     {
         id: 3,
-        role: "Junior Web Developer",
-        company: "WebStudio",
-        period: "2018 - 2019",
+        role: "Junior Web Intern",
+        company: "GeekWorkx Technologies",
+        period: "2022 - 2023",
         description: [
             "Developed responsive landing pages for clients",
             "Optimized assets and improved SEO scores",
             "Maintained legacy CMS systems"
         ],
-        tech: ["HTML/CSS", "JavaScript", "WordPress", "PHP"]
+        tech: ["HTML/CSS", "JavaScript", "SQL", "PHP"]
     }
 ];
 
