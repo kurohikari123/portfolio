@@ -84,8 +84,8 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
         
         {/* Text Content */}
         <div ref={textRef} className="space-y-6 z-10 order-2 lg:order-1">
-          <div className="inline-block px-3 py-1 rounded-full border border-tokyo-green/50 bg-tokyo-green/10 text-tokyo-green text-sm font-mono mb-4">
-            Available for hire
+          <div className="inline-block px-3 py-1 rounded-full border border-tokyo-green/50 bg-tokyo-green/10 text-tokyo-red text-sm font-mono mb-4">
+            Not available for hire
           </div>
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Building digital <br />
@@ -113,9 +113,9 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </div>
 
           <div className="flex gap-6 pt-8 text-tokyo-comment">
-             <a href="#" className="hover:text-tokyo-fg transition-colors hover:scale-110 transform duration-200"><Github size={24} /></a>
+             <a href="https://github.com/kurohikari123" className="hover:text-tokyo-fg transition-colors hover:scale-110 transform duration-200"><Github size={24} /></a>
              <a href="#" className="hover:text-tokyo-fg transition-colors hover:scale-110 transform duration-200"><Linkedin size={24} /></a>
-             <a href="#" className="hover:text-tokyo-fg transition-colors hover:scale-110 transform duration-200"><Twitter size={24} /></a>
+             {/* <a href="#" className="hover:text-tokyo-fg transition-colors hover:scale-110 transform duration-200"><Twitter size={24} /></a> */}
           </div>
         </div>
 
